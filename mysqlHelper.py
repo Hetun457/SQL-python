@@ -79,7 +79,7 @@ class MySqlHelper:
 
 
 if __name__ == "__main__":
-    db = MySqlHelper(password="")
+    db = MySqlHelper()
     res = db.get_all("select * from student")
     print(res)
 
